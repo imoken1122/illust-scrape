@@ -14,7 +14,7 @@ Collect illustrations of your favorite illustrators and characters on Pixiv.
 
 ### 0. Package install
 
-Note: Match your chromedriver version to your chrome version.(Edit requirements.txt)
+Note: Match your chromedriver version to your chrome version.(Edit requirements.txt
 ```
 $ pip install -r requirements.txt
 ```

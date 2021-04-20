@@ -1,19 +1,19 @@
-from os import execlp
-import chromedriver_binary # nopa
+
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.action_chains import ActionChains
 import time as t
 import json
 from tqdm import tqdm
 from bs4 import BeautifulSoup
 import argparse as ap
-
+import os 
 
 f = open('setting.json', 'r')
 data = json.load(f)
-
+output_dir = "./images"
+if not os.input_path.exists(output_dir):
+    os.makedirs(output_dir)
 def get_driver():
     usrif = data["user_info"]
     options = webdriver.ChromeOptions()
