@@ -29,7 +29,7 @@ Also, set `illustrator_id` to a list of illustrator numbers on pixiv, or `tag_wo
 
 
 ### 2. Login Process
-To log in to pixiv, do the following: your user information will be created in the `profile_path` folder and you will not need to log in again to see the information from there.
+To login to pixiv, do the following: your user information will be created in the `profile_path` folder and you will not need to login again to see the information from there.
 
 ```
 $ python -c "import scraper ; scraper.login()"
