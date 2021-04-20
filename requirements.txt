@@ -1,0 +1,4 @@
+selenium==3.141.0
+chromedriver-binary== {your version}
+beautifulsoup4==4.8.0
+tqdm

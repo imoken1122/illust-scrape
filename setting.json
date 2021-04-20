@@ -1,0 +1,13 @@
+{
+    "user_info": {
+        "login":{
+            "id": "",
+            "password":""
+        },
+        "useragent" : "",
+        "profile_path":"./UserData"
+    },
+    "illustrator_id": [],
+    "tag_word" : []
+
+}
