@@ -22,7 +22,7 @@ $ pip install -r requirements.txt
 
 ### 1. Setting parameters
 
-set the parameters `id`, `passward`,` useragent`, `profile_path` in __setting.json__.  
+set the parameters your `id`, `passward` on Pixiv,` useragent`, `profile_path` in __setting.json__.  
 (For `useragent`, copy the result of searching for "my user agent" in Google Chrome. Any name can be used for `profile_path` )  
 Also, set `illustrator_id` to a list of illustrator numbers on pixiv, or `tag_word` is a list of characters you want to collect.
 
